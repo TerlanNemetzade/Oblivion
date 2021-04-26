@@ -1,0 +1,20 @@
+﻿@model User
+<div class="alert-danger">@ViewBag.Message</div>
+<br />
+<br />
+
+<table class="table table-sm table-bordered table-bordered">
+    <tr><th>ID</th><th>Name</th><th>Email</th><th>Update</th><th>Delete</th></tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.UserName</td>
+        <td>@Model.Email</td>
+
+        <td><a class="btn btn-sm btn-primary" asp-action="UpdateUser" asp-route-id="@Model.Id">Edit</a></td>
+        <td>
+            <form asp-action="DeleteUser" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+        </td>
+    </tr>
+</table>

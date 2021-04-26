@@ -1,0 +1,9 @@
+C:\Users\terla\Desktop\Oblivion\Email\bin\Debug\netstandard2.0\Email.deps.json
+C:\Users\terla\Desktop\Oblivion\Email\bin\Debug\netstandard2.0\Email.dll
+C:\Users\terla\Desktop\Oblivion\Email\bin\Debug\netstandard2.0\Email.pdb
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.csprojAssemblyReference.cache
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.AssemblyInfoInputs.cache
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.AssemblyInfo.cs
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.csproj.CoreCompileInputs.cache
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.dll
+C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.0\Email.pdb

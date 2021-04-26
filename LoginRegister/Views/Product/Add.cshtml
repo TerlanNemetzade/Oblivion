@@ -1,0 +1,53 @@
+﻿@model ProductModel
+@* ctrl+e ctrl+d *@
+
+@{
+    string action = (Model?.ProductId ?? 0) > 0 ? "Update" : "Add";
+}
+
+<div class="alert-primary">@ViewBag.Message</div>
+
+
+<form class="form-group" asp-action="@action" asp-controller="Product">
+
+    <input asp-for="ProductId" hidden />
+
+    <div class="form-group">
+        <label for="name" class="mr-sm-2">ProductName:</label>
+        <input asp-for="ProductName" class="form-control mb-2 mr-sm-2" id="name">
+        <span asp-validation-for="ProductName"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="desc" class="mr-sm-2">CategoryId</label>
+        <input asp-for="CategoryId" type="number" class="form-control mb-2 mr-sm-2" id="desc" />
+        <span asp-validation-for="CategoryId"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="name" class="mr-sm-2">Description:</label>
+        <input asp-for="Description" class="form-control mb-2 mr-sm-2" id="name" />
+        <span asp-validation-for="Description"></span>
+    </div>
+    <div class="form-group">
+        <label for="desc" class="mr-sm-2">UnitPrice:</label>
+        <input asp-for="UnitPrice" type="number" class="form-control mb-2 mr-sm-2" id="desc" />
+        <span asp-validation-for="UnitPrice"></span>
+    </div>
+    <div class="form-group">
+        <label for="desc" class="mr-sm-2">UnitsInStock:</label>
+        <input asp-for="UnitsInStock" type="number" class="form-control mb-2 mr-sm-2" id="desc" />
+        <span asp-validation-for="UnitsInStock"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary bgupdate">@action</button>
+
+
+
+
+</form>
+<partial name="_ValidationScriptsPartial" />
+
+
+

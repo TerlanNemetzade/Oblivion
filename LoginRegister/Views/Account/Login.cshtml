@@ -1,0 +1,51 @@
+﻿@model LoginViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    @*<link rel="stylesheet" type="text/css" href="~/css/Login.css" />*@
+    <link rel="stylesheet" type="text/css" href="~/css/LoginRegister.css" />
+
+</head>
+<body>
+    <div class="container">
+        <section id="content">
+            <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <h1>Login Form</h1>
+                <div>
+
+                    <input asp-for="Username" type="text" placeholder="Username" required="" id="username" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div>
+
+                    <input asp-for="Password" type="password" placeholder="Password" required="" id="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="RememberMe" /> @Html.DisplayNameFor(model => model.RememberMe)
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Log in" />
+                    <a asp-action="ForgotPassword" asp-controller="Account">Forgot Password</a>
+                    <a asp-action="Register" asp-controller="Account">Register</a>
+                </div>
+            </form><!-- form -->
+
+        </section><!-- content -->
+    </div><!-- container -->
+</body>
+</html>

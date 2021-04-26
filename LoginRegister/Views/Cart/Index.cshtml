@@ -1,0 +1,40 @@
+﻿@model CartListViewModel
+
+<h2>Your cart</h2>
+@if (Model.Cart.CartLines.Count == 0)
+{
+    <h3   class="alert-success","text-center">Your cart is clear</h3>
+}
+else
+{
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Product name</th>
+                <th>QuantityPerUnit</th>
+                <th>UnitPrice</th>               
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        @foreach (var cartLine in Model.Cart.CartLines)
+        {
+            <tbody>
+                <tr>
+                    <td>@cartLine.Product.ProductId.</td>
+                    <td>@cartLine.Product.ProductName</td>
+                    <td>@cartLine.Product.Description</td>
+                    <td>@cartLine.Product.UnitPrice</td>               
+                    <td>@cartLine.Quantity</td>
+                    <td><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@cartLine.Product.ProductId">Remove from Cart</a></td>
+                </tr>
+            </tbody>
+          
+        }
+    </table>
+    <br />
+    <br />
+    <form asp-controller="Cart" asp-action="Complete" method="get">
+        <button style="" class="btn btn-success"  type="submit" value="Complete">Complete</button>
+    </form>
+}
