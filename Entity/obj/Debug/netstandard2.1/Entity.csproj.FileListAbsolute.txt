@@ -7,3 +7,13 @@ C:\Users\terla\Desktop\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.csproj.Co
 C:\Users\terla\Desktop\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.dll
 C:\Users\terla\Desktop\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.pdb
 C:\Users\terla\Desktop\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.csproj.AssemblyReference.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Entity\obj\Debug\netstandard2.1\Entity.pdb

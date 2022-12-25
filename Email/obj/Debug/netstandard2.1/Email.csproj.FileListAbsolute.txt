@@ -7,3 +7,13 @@ C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.1\Email.AssemblyInf
 C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.1\Email.csproj.CoreCompileInputs.cache
 C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.1\Email.dll
 C:\Users\terla\Desktop\Oblivion\Email\obj\Debug\netstandard2.1\Email.pdb
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\bin\Debug\netstandard2.1\Email.deps.json
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\bin\Debug\netstandard2.1\Email.dll
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\bin\Debug\netstandard2.1\Email.pdb
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.csproj.AssemblyReference.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.AssemblyInfoInputs.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.AssemblyInfo.cs
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.csproj.CoreCompileInputs.cache
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.dll
+C:\Users\terlan.nemetov\Source\Repos\Oblivion\Email\obj\Debug\netstandard2.1\Email.pdb

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\terla\\Desktop\\Oblivion\\LoginRegister\\Oblivion.csproj": {}
+    "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\LoginRegister\\Oblivion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\Email.csproj": {
+    "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Email\\Email.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\Email.csproj",
+        "projectUniqueName": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Email\\Email.csproj",
         "projectName": "Email",
-        "projectPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\Email.csproj",
-        "packagesPath": "C:\\Users\\terla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\obj\\",
+        "projectPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Email\\Email.csproj",
+        "packagesPath": "C:\\Users\\terlan.nemetov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\terlan.nemetov\\Source\\Repos\\Oblivion\\Email\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\terla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\terlan.nemetov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,21 +70,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\Entity.csproj": {
+    "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\terla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\terlan.nemetov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\terla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\terlan.nemetov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,6 +96,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,7 +126,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -124,21 +136,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\terla\\Desktop\\Oblivion\\LoginRegister\\Oblivion.csproj": {
+    "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\LoginRegister\\Oblivion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\terla\\Desktop\\Oblivion\\LoginRegister\\Oblivion.csproj",
+        "projectUniqueName": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\LoginRegister\\Oblivion.csproj",
         "projectName": "Oblivion",
-        "projectPath": "C:\\Users\\terla\\Desktop\\Oblivion\\LoginRegister\\Oblivion.csproj",
-        "packagesPath": "C:\\Users\\terla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\terla\\Desktop\\Oblivion\\LoginRegister\\obj\\",
+        "projectPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\LoginRegister\\Oblivion.csproj",
+        "packagesPath": "C:\\Users\\terlan.nemetov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\LoginRegister\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\terla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\terlan.nemetov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,17 +162,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\Email.csproj": {
-                "projectPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Email\\Email.csproj"
+              "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Email\\Email.csproj": {
+                "projectPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Email\\Email.csproj"
               },
-              "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\terla\\Desktop\\Oblivion\\Entity\\Entity.csproj"
+              "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\terlan.nemetov\\source\\repos\\Oblivion\\Entity\\Entity.csproj"
               }
             }
           }
@@ -212,7 +229,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -224,7 +242,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

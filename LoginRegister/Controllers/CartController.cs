@@ -70,65 +70,67 @@ namespace Oblivion.Controllers
             TempData.Add("message", product.Data.ProductName + Messages.ProductDeleted);
             return RedirectToAction("Index", "Cart");
         }
-        [HttpGet]
+        //[HttpGet]
+        //public IActionResult Complete()
+        //{
+        //    //var product = _productService.GetById(productId).Data;
+           
+        //    return View(new OrderModel());
+        //    //var model = new ShippingDetailViewModel
+        //    //{
+        //    //    shippings = new Shipping()
+        //    //};
+        //    //return View(model);
+        //}
         public IActionResult Complete()
         {
-            //var product = _productService.GetById(productId).Data;
-           
-            return View(new OrderModel());
-            //var model = new ShippingDetailViewModel
-            //{
-            //    shippings = new Shipping()
-            //};
-            //return View(model);
+            return RedirectToAction(nameof(SuccessComplete));
         }
-        [HttpPost]
-        public IActionResult Complete(OrderModel orderModel)
-        {
-            //if (!ModelState.IsValid)
-            //{
-            //    return View();
-            //}
+        //public IActionResult Complete(OrderModel orderModel)
+        //{
+        //    //if (!ModelState.IsValid)
+        //    //{
+        //    //    return View();
+        //    //}
 
-            var modelCart = new CartListViewModel
-            {
-                Cart = _cartSessionHelper.GetCart("cart")
-            };
-            //var cart = new Cart();
+        //    var modelCart = new CartListViewModel
+        //    {
+        //        Cart = _cartSessionHelper.GetCart("cart")
+        //    };
+        //    //var cart = new Cart();
           
-            var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            //var model = new Order();
-            //var product = modelCart.Cart.CartLines.FirstOrDefault(p=>productId==p.Product.ProductId);
-            foreach(var item in modelCart.Cart.CartLines)
-            {
-                for(int i = 1; i <= item.Quantity; i++)
-                {
-                    var model = new Order
-                    {
-                        UserID = GetCurrentUser(),
-                        FirstName = orderModel.FirstName,
-                        LastName = orderModel.LastName,
-                        ProductID = item.Product.ProductId
-                    };
-                    _orderService.Add(model);
-                }
-                //model.UserID = GetCurrentUser();
-                //model.FirstName = orderModel.FirstName;
-                //model.LastName = orderModel.LastName;
-                //model.ProductID = item.Product.ProductId;
+        //    var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        //    //var model = new Order();
+        //    //var product = modelCart.Cart.CartLines.FirstOrDefault(p=>productId==p.Product.ProductId);
+        //    foreach(var item in modelCart.Cart.CartLines)
+        //    {
+        //        for(int i = 1; i <= item.Quantity; i++)
+        //        {
+        //            var model = new Order
+        //            {
+        //                UserID = GetCurrentUser(),
+        //                FirstName = orderModel.FirstName,
+        //                LastName = orderModel.LastName,
+        //                ProductID = item.Product.ProductId
+        //            };
+        //            _orderService.Add(model);
+        //        }
+        //        //model.UserID = GetCurrentUser();
+        //        //model.FirstName = orderModel.FirstName;
+        //        //model.LastName = orderModel.LastName;
+        //        //model.ProductID = item.Product.ProductId;
              
               
-            }
+        //    }
            
        
-            TempData.Add("message", Messages.OrderComplete);
-            _cartSessionHelper.Clear();
-            return RedirectToAction(nameof(SuccessComplete));
-            //_orderService.Add(orders);
-            //TempData.Add("message", Messages.OrderComplete);
-            //_cartSessionHelper.Clear();
-            //return RedirectToAction(nameof(SuccessComplete));
-        }
+        //    TempData.Add("message", Messages.OrderComplete);
+        //    _cartSessionHelper.Clear();
+        //    return RedirectToAction(nameof(SuccessComplete));
+        //    //_orderService.Add(orders);
+        //    //TempData.Add("message", Messages.OrderComplete);
+        //    //_cartSessionHelper.Clear();
+        //}
         public IActionResult SuccessComplete()
         {
             return View();

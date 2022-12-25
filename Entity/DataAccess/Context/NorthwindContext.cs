@@ -10,7 +10,7 @@ namespace Entity.DataAccess.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer
-                (@"Server=OBLIVION;initial catalog=Oblivion;integrated security=true; MultipleActiveResultSets=true");
+                (@"Server=.;initial catalog=Northwind;integrated security=true; MultipleActiveResultSets=true");
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
